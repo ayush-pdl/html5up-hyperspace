@@ -1,0 +1,229 @@
+# ==========================================
+# Portfolio Project - .gitignore
+# ==========================================
+
+# Operating System Files
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# IDE & Editor Files
+# ==========================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Node.js (if you add build tools later)
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Build & Distribution
+# ==========================================
+dist/
+build/
+*.min.js
+*.min.css
+*.map
+coverage/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+
+# Testing
+# ==========================================
+.nyc_output
+coverage/
+*.lcov
+.jest/
+
+# Logs
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+
+# Temporary Files
+# ==========================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.tmp/
+temp/
+tmp/
+
+# Personal Files (you may want to keep private)
+# ==========================================
+
+# Uncomment if you don't want to commit your actual CV
+# assets/documents/CV.pdf
+# assets/documents/*.pdf
+
+# Personal notes and drafts
+notes.md
+drafts/
+TODO.md
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Deployment & CI/CD
+# ==========================================
+.vercel
+.netlify/
+.firebase/
+.amplify/
+
+# Database
+# ==========================================
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Compressed Files
+# ==========================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Image Originals (keep optimized versions only)
+# ==========================================
+# Uncomment if you have large original files
+# assets/images/originals/
+# *.psd
+# *.ai
+# *.sketch
+
+# Security & Sensitive Data
+# ==========================================
+*.pem
+*.key
+*.cert
+credentials.json
+secrets.json
+
+# Misc
+# ==========================================
+.sass-cache/
+*.css.map
+*.js.map
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
